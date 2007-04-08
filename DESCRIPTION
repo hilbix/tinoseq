@@ -1,0 +1,19 @@
+An integer seq implementation
+# $Header$
+#
+# $Log$
+# Revision 1.1  2007-04-08 10:42:36  tino
+# First Dist
+#
+
+I don't know why, but it looks like there are cases where the
+ordinary seq does not do it's job.  This here is supposed to
+only work for (long) integers.
+
+Currrently it works with a signed 64 bit number, but in future
+I might extend this to include arbitrary long integers.
+
+One difference exists to the "normal" seq:  If you try to
+increment by 0 this here bails out, as for this type you
+can use "yes number" instead (and increment 0 shall be
+something weird, anyway).
