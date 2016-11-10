@@ -1,3 +1,2 @@
-A first version
-
-Currently not uses tinolib (but in future will as I add options).
+Announcements are now in the git commit log:
+git log --follow VERSION

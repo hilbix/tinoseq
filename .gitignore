@@ -1,0 +1,4 @@
+*.d
+*.o
+tinoseq_version.h
+tinoseq
