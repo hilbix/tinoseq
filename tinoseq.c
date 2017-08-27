@@ -50,7 +50,7 @@ getll(const char *s)
 void
 out(long long v)
 {
-  printf("%Ld\n", v);
+  printf("%lld\n", v);
   if (feof(stdout) || ferror(stdout))
     {
       perror("stdout");
